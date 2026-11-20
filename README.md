@@ -1,3 +1,11 @@
+> [!NOTE]
+> **soorma-ai fork.** Branch `soorma-node24` is upstream's v2.6.1
+> (`ca4a40a7d1004f18d9960b404b97e5f30a505a08`) with one change: `action.yml`'s `runs.using`
+> is `node24` instead of `node20`, because GitHub removed Node 20 from Actions runners on
+> 2026-09-23. `dist/` and everything else are byte-identical to v2.6.1. Upstream,
+> contributor-assistant/github-action, is archived. soorma-ai/soorma-core pins this branch's
+> commit by full SHA in `.github/workflows/cla.yml`, never by branch or tag.
+
 ![build](https://github.com/cla-assistant/github-action/workflows/build/badge.svg)
 
 # Handling CLAs and DCOs via GitHub Action
